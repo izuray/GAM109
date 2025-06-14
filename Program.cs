@@ -130,7 +130,7 @@ class Program
         th2.Start();
         th3.Start();*/
 
-        Thread td1 = new Thread(() =>FindStudent(1));
+        /*Thread td1 = new Thread(() =>FindStudent(1));
 
         Thread td2 = new Thread(() => FindStudent(2));
 
@@ -139,7 +139,7 @@ class Program
 
         td1.Join();
         
-        td2.Join();
+        td2.Join();*/
         
 
         /*for (int i = 0; i < 50; i++)
@@ -204,7 +204,7 @@ class Program
             }
         }*/
 
-        /*List<Account> listAct = new List<Account>();
+        List<Account> listAct = new List<Account>();
 
         string path = "Account.txt";
 
@@ -254,7 +254,7 @@ class Program
         foreach (var acc in listAct)
         {
             Console.WriteLine($"ID: {acc.AccountID}, Name: {acc.Username}, Email: {acc.Email}, PasswordHash: {acc.PasswordHash}");
-        }*/
+        }
 
 
     }
