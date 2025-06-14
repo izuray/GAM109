@@ -88,13 +88,15 @@ class Program
     {
         lock (lockObject)
         {
-            var result = stdList.Where(s => s.classId == skill_id);
-            foreach (var s in result)
+            
+            foreach (var s in stdList)
             {
-               
-                Console.WriteLine($"Player ID: {s.Id}, Name: {s.Name}, Weapon ID: {s.Score}");
-                Thread.Sleep(1000);
-                
+                if (s.Id == skill_id)
+                {
+                    Console.WriteLine($"Player ID: {s.Id}, Name: {s.Name}, Weapon ID: {s.Score}");
+                    //Thread.Sleep(1000);
+                }
+              
             }
         }
         
