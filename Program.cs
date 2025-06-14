@@ -54,6 +54,7 @@ class Program
         //Console.WriteLine($"Tutor C# 2");
         var sum = x + y;
         return sum;
+        
     }
 
     public static int test(int x, string y)
