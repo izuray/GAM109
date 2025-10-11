@@ -51,24 +51,48 @@ class Program
     static void Main(string[] args)
     {
 
+        /*List<int> list = new List<int> { 11,122,3,4,5 ,6,7, 8,11,17,24,29};
+
+        //var result = list.TakeWhile(temp => temp > 7);
+        var result = list.SkipWhile(x => x > 5);
+
+        foreach( var item in result)
+        {
+            Console.WriteLine(item);
+        }*/
+
+
+
+
+
         List<Student> students = new List<Student>()
         {
             new Student(1,"dinhbv", 9, "PH21321",302),
-            new Student(2,"anhnh136", 8, "PH21321",301),
-            new Student(3,"trungd24", 6, "PH21321",305),
-            new Student(4,"chinhdp5", 5, "PH21321",302),
+            new Student(2,"dinhbv", 8, "PH21321",301),
+            new Student(3,"trungd24", 9, "PH21321",305),
+            new Student(4,"chinhdp5", 9, "PH21321",302),
             new Student(5,"longhh7", 7, "PH21321",301),
             new Student(6,"linhtd73", 10, "PH21321",302),
 
-        };   
-        var result = students.OrderByDescending(temp => temp.Score);
+        };
+        /*var result = from std in students
+                     where std.Name.StartsWith("d")
+                     select std;*/
+
+       // var result = students.ToDictionary((temp => temp.Name), x => x.Score);
+        var result = students.ToLookup((temp => temp.Score));
+
         Console.WriteLine("Danh sach sinh vien: ");
-        foreach( var i in result)
+        foreach (var i in result)
         {
-            Console.WriteLine($" Name: {i.Name} \n Score: {i.Score} \n MSSV: {i.MSSV} \n Class: {i.classId}");
+            Console.WriteLine($" Key : {i.Key} \n Value: {i.Count()}");
             Console.WriteLine("================");
+            foreach(var a in i)
+            {
+                Console.WriteLine($"{a.Name} ----- {a.Score} -------- {a.MSSV}");
+            }
         }
-        
+
 
     }
 
