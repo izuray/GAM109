@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BuiDinh\\SUM2025\\GAM109 - L\u1EADp tr\u00ECnh C# cho Unity\\Source\\GAM109\\",
+  "WorkspaceRootPath": "D:\\FPOLY\\FALL25\\BL1\\Game109_git\\GAM109\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49A414A2-B58E-41FC-8A2A-63C902E4E7D6}|GAM109.csproj|d:\\buidinh\\sum2025\\gam109 - l\u1EADp tr\u00ECnh c# cho unity\\source\\gam109\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49A414A2-B58E-41FC-8A2A-63C902E4E7D6}|GAM109.csproj|d:\\fpoly\\fall25\\bl1\\game109_git\\gam109\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49A414A2-B58E-41FC-8A2A-63C902E4E7D6}|GAM109.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A414A2-B58E-41FC-8A2A-63C902E4E7D6}|GAM109.csproj|d:\\fpoly\\fall25\\bl1\\game109_git\\gam109\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A414A2-B58E-41FC-8A2A-63C902E4E7D6}|GAM109.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\FPOLY\\FALL25\\BL1\\Game109_git\\GAM109\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "D:\\FPOLY\\FALL25\\BL1\\Game109_git\\GAM109\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T15:41:27.577Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BuiDinh\\SUM2025\\GAM109 - L\u1EADp tr\u00ECnh C# cho Unity\\Source\\GAM109\\Program.cs",
+              "DocumentMoniker": "D:\\FPOLY\\FALL25\\BL1\\Game109_git\\GAM109\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\BuiDinh\\SUM2025\\GAM109 - L\u1EADp tr\u00ECnh C# cho Unity\\Source\\GAM109\\Program.cs",
+              "ToolTip": "D:\\FPOLY\\FALL25\\BL1\\Game109_git\\GAM109\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAN8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T01:03:10.253Z",
               "EditorCaption": ""
