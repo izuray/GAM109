@@ -20,11 +20,12 @@ public class Student
     
     public int classId { get; set; }
 
-    public Student(string name, int id, int score, int ClassId)
+    public Student(int id, string name,  int score, string mssv, int ClassId)
     {
-        this.Name = name;
         Id = id;
+        this.Name = name;
         Score = score;
+        MSSV = mssv;
         classId = ClassId;
     }
 
@@ -50,9 +51,24 @@ class Program
     static void Main(string[] args)
     {
 
+        List<Student> students = new List<Student>()
+        {
+            new Student(1,"dinhbv", 9, "PH21321",302),
+            new Student(2,"anhnh136", 8, "PH21321",301),
+            new Student(3,"trungd24", 6, "PH21321",305),
+            new Student(4,"chinhdp5", 5, "PH21321",302),
+            new Student(5,"longhh7", 7, "PH21321",301),
+            new Student(6,"linhtd73", 10, "PH21321",302),
 
-
-
+        };   
+        var result = students.OrderByDescending(temp => temp.Score);
+        Console.WriteLine("Danh sach sinh vien: ");
+        foreach( var i in result)
+        {
+            Console.WriteLine($" Name: {i.Name} \n Score: {i.Score} \n MSSV: {i.MSSV} \n Class: {i.classId}");
+            Console.WriteLine("================");
+        }
+        
 
     }
 

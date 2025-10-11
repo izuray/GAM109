@@ -5,3 +5,11 @@ D:\BuiDinh\SUM2025\GAM109 - Lập trình C# cho Unity\Source\GAM109\obj\Debug\GA
 D:\BuiDinh\SUM2025\GAM109 - Lập trình C# cho Unity\Source\GAM109\obj\Debug\GAM109.csproj.CoreCompileInputs.cache
 D:\BuiDinh\SUM2025\GAM109 - Lập trình C# cho Unity\Source\GAM109\obj\Debug\GAM109.exe
 D:\BuiDinh\SUM2025\GAM109 - Lập trình C# cho Unity\Source\GAM109\obj\Debug\GAM109.pdb
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\bin\Debug\GAM109.exe.config
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\bin\Debug\GAM109.exe
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\bin\Debug\GAM109.pdb
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\obj\Debug\GAM109.csproj.AssemblyReference.cache
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\obj\Debug\GAM109.exe.config
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\obj\Debug\GAM109.csproj.CoreCompileInputs.cache
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\obj\Debug\GAM109.exe
+D:\FPOLY\FALL25\BL1\Game109_git\GAM109\obj\Debug\GAM109.pdb
